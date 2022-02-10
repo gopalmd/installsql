@@ -1,6 +1,6 @@
 ---
 - name:Sql installation
-  hosts: win
+  hosts: all
   - roles: 
     - mssql
            
