@@ -6,7 +6,3 @@
   tasks:
   - name:
     ping:
-               
-  - name: Call Roles
-    roles:
-     - mssql
