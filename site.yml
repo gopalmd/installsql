@@ -1,13 +1,12 @@
 # Playbook to call multiple roles to configure systems
- - name: Configure systems
-   hosts: win
-     become: yes
+- name: Configure systems
+  hosts: win
+  become: yes
 
-       tasks:
-         - name:
-             ping:
+  tasks:
+  - name:
+    ping:
                
-               - name: Call Roles
-                 roles:
-                     
-                        - mssql
+  - name: Call Roles
+    roles:
+    - mssql
