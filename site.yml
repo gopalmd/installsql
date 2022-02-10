@@ -1,0 +1,7 @@
+---
+- name:Sql installation
+  hosts: win
+  - roles: 
+    - mssql
+           
+
