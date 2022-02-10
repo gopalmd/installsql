@@ -1,7 +1,13 @@
----
-- name:Sql installation
-  hosts: all
-  - roles: 
-    - mssql
-           
+# Playbook to call multiple roles to configure systems
+ - name: Configure systems
+   hosts: win
+     become: yes
 
+       tasks:
+         - name:
+             ping:
+               
+               - name: Call Roles
+                 roles:
+                     
+                        - mssql
