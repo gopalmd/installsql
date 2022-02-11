@@ -4,5 +4,5 @@
 - name: add ansible user 
   hosts: win
   tasks:
-    -ping:
+    - ping:
      
